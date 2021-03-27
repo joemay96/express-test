@@ -1,0 +1,22 @@
+{
+  "name": "express-test",
+  "version": "1.0.0",
+  "description": "This is a test application with express to test the hosting",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "test",
+    "express"
+  ],
+  "author": "joemay96",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "morgan": "^1.10.0"
+  }
+}
